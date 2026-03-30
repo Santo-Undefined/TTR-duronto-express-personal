@@ -1,6 +1,29 @@
 #! /bin/zsh
 
+#!/bin/bash
+
 set -e
+echo "🔄 Checking if branch is up to date..."
+
+git fetch origin
+
+LOCAL=$(git rev-parse @)
+REMOTE=$(git rev-parse @{u})
+
+if [ "$LOCAL" != "$REMOTE" ]; then
+  echo "❌ Your branch is not up to date with remote."
+  echo "hint:   git config pull.rebase false  # merge"
+  echo "hint:   git config pull.rebase true   # rebase"
+  echo "hint:   git config pull.ff only       # fast-forward only"
+  exit 1
+fi
+
+echo "✅ Branch is up to date"
+echo "🎨 Formatting..."
 deno fmt
+
+echo "🔍 Linting..."
 deno lint
+
+echo "🧪 Running tests..."
 deno test -A
