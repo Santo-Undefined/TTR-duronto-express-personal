@@ -1,0 +1,87 @@
+/* Basic page styling */
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #f4f4f9;
+}
+
+/* Make the SVG look like a board game map */
+svg {
+  background-color: #e0d8c0;
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* --- THE GAME LOGIC CSS --- */
+
+/* Smooth transition for the shapes */
+.route .claimed-shape,
+.route .empty-shape {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* By default, hide the claimed shape */
+.route .claimed-shape {
+  opacity: 0;
+}
+
+/* By default, show the empty shape */
+.route .empty-shape {
+  opacity: 1;
+}
+
+/* When claimed, show the complex shape */
+.route:not([data-owner-color="none"]) .claimed-shape {
+  opacity: 1;
+}
+
+/* Color the claimed shape based on the specific owner */
+.route[data-owner-color="red"] .claimed-shape {
+  fill: #e74c3c;
+  stroke: #c0392b;
+}
+
+.route[data-owner-color="blue"] .claimed-shape {
+  fill: #3498db;
+  stroke: #2980b9;
+}
+.route[data-owner-color="green"] .claimed-shape {
+  fill: #2ecc71;
+  stroke: #27ae60;
+}
+
+/* loading track color, color set from script */
+
+.route[data-route-color="white"] .empty-shape {
+  fill: #fbfbfb;
+  stroke: #4a4a4a;
+}
+
+.route[data-route-color="red"] .empty-shape {
+  fill: #ea4949;
+  stroke: #4a4a4a;
+}
+
+.route[data-route-color="blue"] .empty-shape {
+  fill: #4997ea;
+  stroke: #4a4a4a;
+}
+
+.route[data-route-color="pink"] .empty-shape {
+  fill: #e779ed;
+  stroke: #ff0c0c;
+}
+
+.route[data-route-color="yellow"] .empty-shape {
+  fill: #f2fb42;
+  stroke: #ff0c0c;
+}
+
+.route[data-route-color="transparent"] .empty-shape {
+  fill: #e2e2e2;
+  stroke: #ff0c0c;
+}
