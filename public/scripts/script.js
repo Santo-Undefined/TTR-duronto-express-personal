@@ -56,6 +56,8 @@ const displayFaceUpCards = (cards) => {
 };
 
 globalThis.onload = () => {
-  fetchPlayerDetails().then(displayPlayers);
-  fetchFaceUpCards().then(displayFaceUpCards);
+  const playerData = fetchPlayerDetails();
+  displayPlayers(playerData);
+  const cardsData = fetchFaceUpCards();
+  displayFaceUpCards(cardsData);
 };
