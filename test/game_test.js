@@ -73,11 +73,7 @@ describe("testing the game", () => {
         "pink": 2,
         "red": 1,
       },
-      ticketChoices: [
-        { id: "t3", src: "Chicago", dest: "New Orleans", points: 7 },
-        { id: "t4", src: "Denver", dest: "El Paso", points: 4 },
-        { id: "t5", src: "Winnipeg", dest: "Little Rock", points: 11 },
-      ],
+      ticketChoices: ["t3", "t4", "t5"],
       bogies: 45,
     });
   });
