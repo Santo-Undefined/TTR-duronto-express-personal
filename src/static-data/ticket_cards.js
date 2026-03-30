@@ -1,3 +1,5 @@
+import { shuffle } from "@std/random";
+
 export const getTicketCards = () => {
   const ticketCards = [
     { id: "t1", src: "Helena", dest: "Duluth", points: 12 },

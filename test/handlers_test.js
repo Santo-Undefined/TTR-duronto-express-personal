@@ -39,13 +39,18 @@ describe("testing /initial-hand GET", () => {
 
     assertEquals(response.status, 200);
     assertEquals(await response.json(), {
-      carCards: ["red", "green", "blue", "pink"],
+      carCards: {
+        "blue": 1,
+        "green": 1,
+        "pink": 1,
+        "red": 1,
+      },
       ticketChoices: [
         { id: "t3", src: "Chicago", dest: "New Orleans", points: 7 },
         { id: "t4", src: "Denver", dest: "El Paso", points: 4 },
         { id: "t5", src: "Winnipeg", dest: "Little Rock", points: 11 },
       ],
-      boggies: 45,
+      bogies: 45,
     });
   });
 });

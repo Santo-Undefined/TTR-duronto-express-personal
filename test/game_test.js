@@ -29,20 +29,44 @@ describe("testing handlers", () => {
 
     const carCardsDeck = new CarCardsDeck(carCards);
     const ticketDeck = new TicketDeck(ticketCards);
+
     game = new Game(carCardsDeck, ticketDeck);
+    game.initializePlayerHand();
   });
 
   it("initPlayer should initialize the player ", () => {
-    game.initializePlayerHand();
-
     assertEquals(game.playerHand(), {
-      carCards: ["red", "green", "blue", "pink"],
+      carCards: {
+        "blue": 1,
+        "green": 1,
+        "pink": 1,
+        "red": 1,
+      },
       ticketChoices: [
         { id: "t3", src: "Chicago", dest: "New Orleans", points: 7 },
         { id: "t4", src: "Denver", dest: "El Paso", points: 4 },
         { id: "t5", src: "Winnipeg", dest: "Little Rock", points: 11 },
       ],
-      boggies: 45,
+      bogies: 45,
+    });
+  });
+
+  it("drawFaceUpCard should add the card from train car card face up", () => {
+    game.drawFaceUpCard("1");
+    assertEquals(game.playerHand(), {
+      carCards: {
+        "blue": 1,
+        "green": 1,
+        "pink": 1,
+        "red": 1,
+        "white": 1,
+      },
+      ticketChoices: [
+        { id: "t3", src: "Chicago", dest: "New Orleans", points: 7 },
+        { id: "t4", src: "Denver", dest: "El Paso", points: 4 },
+        { id: "t5", src: "Winnipeg", dest: "Little Rock", points: 11 },
+      ],
+      bogies: 45,
     });
   });
 });

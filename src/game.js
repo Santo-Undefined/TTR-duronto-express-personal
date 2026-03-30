@@ -4,15 +4,33 @@ export default class Game {
   constructor(carCardsDeck, ticketDeck) {
     this.#carCardsDeck = carCardsDeck;
     this.#ticketDeck = ticketDeck;
-    this.player = { carCards: [], ticketChoices: [], boggies: 45 };
+    this.player = { carCards: {}, ticketChoices: [], bogies: 45 };
+  }
+
+  #addCardToPlayerHand(cards) {
+    return cards.reduce((updatedDeck, color) => {
+      updatedDeck[color] = (updatedDeck[color] || 0) + 1;
+      return updatedDeck;
+    }, {});
   }
 
   initializePlayerHand() {
-    this.player.carCards.push(...this.#carCardsDeck.dealInitialCards());
-    this.player.ticketChoices.push(...this.#ticketDeck.dealTicketChoices());
+    const dealtCards = this.#carCardsDeck.dealInitialCards();
+    this.player.carCards = this.#addCardToPlayerHand(dealtCards);
+    this.player.ticketChoices.push(
+      ...this.#ticketDeck.dealTicketChoices(),
+    );
+
+    this.#carCardsDeck.initFaceUp();
   }
 
-  drawFaceUpCard() {
+  drawFaceUpCard(id) {
+    const drawnCard = this.#carCardsDeck.drawCardFromFaceUp(id);
+
+    this.player.carCards[drawnCard] = (this.player.carCards[drawnCard] || 0) +
+      1;
+
+    return drawnCard;
   }
 
   playerHand() {
