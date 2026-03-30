@@ -15,7 +15,7 @@ describe("train car card deck", () => {
       "orange",
     ];
     const trainCardDeck = new CarCardsDeck(deck);
-
+    let x;
     assertEquals(trainCardDeck.faceUp, deck.slice(0, 5));
     assertEquals(trainCardDeck.faceDown, deck.slice(5));
   });
