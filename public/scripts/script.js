@@ -23,7 +23,8 @@ const appendPlayer = ({ name, symbol, carCount }, container, template) => {
   clone.querySelector(".identifier .name").textContent = name;
   clone.querySelector(".identifier .symbol").style.backgroundColor = symbol;
 
-  clone.querySelector(".train-car-data img").setAttribute("src", "/something");
+  clone.querySelector(".train-car-data img")
+    .setAttribute("src", `assets/symbols/${symbol}.png`);
   clone.querySelector(".train-car-data .car-count").textContent = carCount;
 
   container.append(clone);

@@ -29,7 +29,8 @@ main {
 
 .row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 article {
@@ -64,22 +65,37 @@ article {
   border: 1px solid black;
   height: 20%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.train-car-data img {
+  width: 20%;
+}
+
+.user .identifier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .market {
   border: 1px solid;
   width: 13%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em;
-  gap: 1em;
 }
 
 .faceup-cards {
   display: flex;
-  gap: 1em;
+  padding: 0 1em;
   flex-flow: column;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 75%;
 }
 
 .faceup-cards img {
@@ -94,25 +110,24 @@ svg {
 }
 
 .card {
-  width: 180px;
-  height: 100px;
+  width: 100%;
+  height: 18%;
   border: 1px solid;
   border-radius: 5px;
 }
 
 .deck {
-  /* background-color: red; */
-  width: 200px;
-  height: 115px;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.3em;
+  padding-left: 1.5em;
 }
 
 .deck img {
-  height: 100%;
-  width: 100%;
-}
-
-.destination-tickets-deck img {
-  height: 100%;
+  height: 68%;
   width: 100%;
 }
 
@@ -141,7 +156,6 @@ footer {
 
 .container {
   position: relative;
-  /* border: 1px solid; */
   height: 80%;
   width: 180px;
 }
@@ -204,6 +218,11 @@ footer {
 }
 
 .destination-tickets-deck {
-  height: 120px;
-  width: 200px;
+  height: 50%;
+  width: 80%;
+}
+
+.destination-tickets-deck img {
+  height: 100%;
+  width: 100%;
 }
