@@ -2,7 +2,8 @@ import { createApp } from "./src/app.js";
 
 const main = () => {
   const app = createApp();
-  Deno.serve({ port: 8000 }, app.fetch);
+  const port = Deno.env.get("PORT") || 8000;
+  Deno.serve({ port }, app.fetch);
 };
 
 main();
