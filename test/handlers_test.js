@@ -93,4 +93,15 @@ describe("testing /draw-deck-card GET", () => {
       "drawnCard": "blue",
     });
   });
+
+  it("testing /draw-faceup-card POST", async () => {
+    const response = await app.request("/draw-faceup-card", {
+      method: "post",
+      body: JSON.stringify({ id: "1" }),
+      "content-type": "application/json",
+    });
+
+    assertEquals(response.status, 200);
+    assertEquals(await response.json(), { drawnCard: "white" });
+  });
 });

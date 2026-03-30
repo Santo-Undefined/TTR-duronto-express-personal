@@ -14,10 +14,6 @@ if [ "$LOCAL" != "$REMOTE" ]; then
   exit 1
 fi
 
-echo "✅ Branch is up to date"
-echo "🎨 Formatting..."
-deno fmt
-
 echo "🔍 Linting..."
 deno lint
 

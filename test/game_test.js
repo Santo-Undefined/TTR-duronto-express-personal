@@ -64,7 +64,7 @@ describe("testing the game", () => {
     });
   });
 
-  it("drawFaceUpCard should add the card from train car card deck to player hand", () => {
+  it("draw deckCard should add the card from train car card deck to player hand", () => {
     game.drawDeckCard();
     assertEquals(game.playerHand(), {
       carCards: {

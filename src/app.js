@@ -24,6 +24,15 @@ export const createApp = (game) => {
 
     return context.json({ drawnCard });
   });
+
+  app.post("/draw-faceup-card", async (context) => {
+    const { id } = await context.req.json();
+    const game = context.get("game");
+
+    const drawnCard = game.drawFaceUpCard(id);
+
+    return context.json({ drawnCard });
+  });
   app.get("*", serveStatic({ root: "public" }));
 
   return app;
