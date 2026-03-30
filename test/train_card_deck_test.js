@@ -1,6 +1,5 @@
 import { describe, it } from "@std/testing/bdd";
 import { assertEquals } from "@std/assert";
-import { initDeck } from "../main.js";
 import { CarCardsDeck } from "../src/train_car_card_deck.js";
 
 describe("train car card deck", () => {
