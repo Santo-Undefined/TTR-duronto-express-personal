@@ -55,9 +55,32 @@ const displayFaceUpCards = (cards) => {
   });
 };
 
+const fetchPlayerHand = async () => {
+  return await fetch("/initial-hand").then((resp) => resp.json());
+};
+
+const displayPlayerHand = ({ carCards }) => {
+  const carCardTemplate = document.querySelector("#card");
+
+  const cardsInHand = Object.entries(carCards).map(([color, count]) => {
+    const clone = carCardTemplate.content.cloneNode(true);
+    const countContainer = clone.querySelector(".card-count");
+    const imageElement = clone.querySelector(".card-img");
+    imageElement.src = `assets/car-cards-images/${color}.jpg`;
+
+    countContainer.textContent = count;
+    return clone;
+  });
+
+  const handContainer = document.querySelector(".hand-car-cards");
+
+  handContainer.append(...cardsInHand);
+};
+
 globalThis.onload = () => {
   const playerData = fetchPlayerDetails();
   displayPlayers(playerData);
   const cardsData = fetchFaceUpCards();
   displayFaceUpCards(cardsData);
+  fetchPlayerHand().then(displayPlayerHand);
 };
