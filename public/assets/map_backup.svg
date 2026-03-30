@@ -12,7 +12,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
    id="namedview1"
    pagecolor="#ffffff"
    bordercolor="#000000"
@@ -22,9 +23,9 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:document-units="mm"
-   inkscape:zoom="1.2804335"
-   inkscape:cx="419.77969"
-   inkscape:cy="319.81355"
+   inkscape:zoom="1.1822142"
+   inkscape:cx="502.86995"
+   inkscape:cy="342.15458"
    inkscape:window-width="1792"
    inkscape:window-height="1062"
    inkscape:window-x="0"
@@ -32,28 +33,12 @@
    inkscape:window-maximized="1"
    inkscape:current-layer="routes_and_stations"
    showgrid="true" />
-  
   <defs
-   id="defs1"><inkscape:path-effect
-   effect="skeletal"
-   id="path-effect2"
-   is_visible="true"
-   lpeversion="1"
-   pattern="m 66.449361,-69.985068 h 30 v -11.25 l -3.75,-3.75 h -22.5 l -3.75,3.75 z m 5.25,-11.25 h 7.5 v 4.5 h -7.5 z m 12,0 h 7.5 v 4.5 h -7.5 z"
-   copytype="repeated"
-   prop_scale="1"
-   scale_y_rel="true"
-   spacing="14.8"
-   normal_offset="0"
-   tang_offset="0"
-   prop_units="false"
-   vertical_pattern="false"
-   hide_knot="false"
-   fuse_tolerance="0" />
+   id="defs1">
     <color-profile
    name="SMPTE-RP-431-2-2007-DCI-P3"
    xlink:href="file:///System/Library/ColorSync/Profiles/DCI(P3)%20RGB.icc"
-   id="color-profile1" />
+   id="color-profile2" />
   </defs>
 
   <g
@@ -152,7 +137,7 @@
     <g
    id="route-STL-VCR"
    class="route"
-   transform="matrix(0.79386838,0.20719259,-0.22628145,0.72689851,86.230275,133.16103)"
+   transform="rotate(15.909485,-498.68521,311.7619)"
    inkscape:label="route-STL-VCR">
       <g
    class="car"
@@ -172,11 +157,11 @@
     <g
    id="route-VCR-CLC"
    class="route"
-   transform="matrix(0.59016405,0.35023338,-0.33652031,0.61421301,170.26713,-18.718341)"
+   transform="rotate(29.692431,184.93566,287.64754)"
    inkscape:label="route-VCR-CLC">
       <g
    class="car"
-   transform="rotate(-18.621065,276.14093,-241.23371)"
+   transform="rotate(-18.621065,279.30962,-232.70511)"
    id="g10">
         <use
    class="empty-shape"
@@ -190,7 +175,7 @@
       </g>
       <g
    class="car"
-   transform="rotate(-18.697719,260.97807,-405.11714)"
+   transform="rotate(-18.697719,257.25179,-365.07932)"
    id="g12">
         <use
    class="empty-shape"
@@ -204,7 +189,7 @@
       </g>
       <g
    class="car"
-   transform="rotate(-20.684817,275.88276,-66.407831)"
+   transform="rotate(-20.684817,277.88243,-84.489678)"
    id="g2">
         <use
    class="empty-shape"
@@ -219,7 +204,7 @@
     </g>
     <g
    id="stn-HLN"
-   transform="translate(22.381804,115.51956)">
+   transform="translate(103.58617,174.45822)">
       <use
    class="empty-shape"
    href="#station"
@@ -227,7 +212,7 @@
    transform="translate(315.64588,66.078829)" />
       <text
    xml:space="preserve"
-   style="writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:1"
+   style="writing-mode: lr-tb; direction: ltr; opacity: 1; fill: #000000; fill-opacity: 1"
    x="335.6319"
    y="62.844654"
    id="text18"><tspan
@@ -241,7 +226,7 @@
      id="tspan18" /></text></g><g
    id="route-STL-HLN"
    class="route"
-   transform="matrix(0.59854489,0.34033062,-0.39624378,0.50963823,196.06546,81.031946)"
+   transform="rotate(35.509393,9.0324605,394.19015)"
    inkscape:label="route-STL-HLN">
       <g
    class="car"
@@ -326,7 +311,7 @@
    transform="translate(-0.00137051,2.1866411)" />
       </g></g><g
    id="stn-STL"
-   transform="translate(-201.52308,44.094031)">
+   transform="translate(-208.56529,49.459524)">
       <use
    class="empty-shape"
    href="#station"
@@ -334,7 +319,7 @@
    transform="translate(315.64588,66.078829)" />
       <text
    xml:space="preserve"
-   style="writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:1"
+   style="writing-mode: lr-tb; direction: ltr; opacity: 1; fill: #000000; fill-opacity: 1"
    x="275.54962"
    y="59.391651"
    id="text31"><tspan
@@ -343,7 +328,7 @@
      y="59.391651"
      id="tspan31">SEATTLE</tspan></text></g><g
    id="stn-CLC"
-   transform="translate(-49.798276,9.0713548)">
+   transform="translate(-13.125337,15.620094)">
       <use
    class="empty-shape"
    href="#station"
@@ -351,7 +336,7 @@
    transform="translate(315.64588,66.078829)" />
       <text
    xml:space="preserve"
-   style="writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:1"
+   style="writing-mode: lr-tb; direction: ltr; opacity: 1; fill: #000000; fill-opacity: 1"
    x="314.22327"
    y="58.70105"
    id="text32"><tspan
@@ -361,7 +346,7 @@
      id="tspan32">CALCAGRY</tspan></text></g><g
    id="route-HLN-CLC"
    class="route"
-   transform="matrix(0.14400117,0.54369397,-0.64412096,0.09657729,340.48324,59.327291)"
+   transform="matrix(0.32885198,0.86592914,-0.8905815,0.31974897,401.90014,29.939019)"
    inkscape:label="route-HLN-CLC">
       <g
    class="car"
@@ -418,86 +403,65 @@
    href="#train-car"
    id="use40"
    transform="translate(-0.00137051,2.1866411)" />
-      </g></g><path
-   d="m 131.718,115.492 c 0,0 18.7481,3.91266 45.4544,1.75508 13.3302,-1.07694 28.6431,-3.66623 44.597,-9.00932 13.4151,-4.49284 27.2833,-10.9328 40.8068,-20.0579"
-   style="display:none;fill:none;stroke:#000000;stroke-width:2"
-   id="path79" /><g
+      </g></g><g
    id="route-STL-CLC"
    class="route"
-   transform="matrix(0.68205679,-0.03755115,0.03807003,0.52687062,65.131098,68.018564)"
+   transform="matrix(0.92381934,-0.06734044,0.05156437,0.94483646,100.25396,74.537222)"
    inkscape:label="route-STL-CLC">
       <g
-   id="g113"><g
    class="car"
-   transform="matrix(0.994671,0.15834,-0.163984,0.979182,113.465,102.533)"
-   inkscape:transform-center-x="-2.4010674"
-   inkscape:transform-center-y="-1.8008006"
-   id="g109">
+   transform="matrix(1.0067467,-0.03117102,0.02271984,0.99259504,76.495985,44.196395)"
+   id="g42">
         <use
    class="empty-shape"
    href="#track"
-   id="use7473-1" />
+   id="use41" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use2612-1"
-   transform="translate(-0.00137051,2.18664)" />
+   id="use42"
+   transform="translate(-0.00137051,2.1866411)" />
       </g>
-      
-      
       <g
    class="car"
-   transform="matrix(1.00225,-0.0997764,0.0903795,0.988708,156.224,109.356)"
-   inkscape:transform-center-x="-2.4010674"
-   inkscape:transform-center-y="-1.8008006"
-   id="g110">
+   transform="matrix(1.0077341,-0.00613219,-0.00303085,0.99234369,125.30111,40.588455)"
+   id="g44">
         <use
    class="empty-shape"
    href="#track"
-   id="use7473-1-1" />
+   id="use43" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use2612-1-1"
-   transform="translate(-0.00137051,2.18664)" />
+   id="use44"
+   transform="translate(0.36981662,2.3931608)" />
       </g>
-      
-      
       <g
    class="car"
-   transform="matrix(0.950684,-0.332586,0.320268,0.939728,199.553,105.492)"
-   inkscape:transform-center-x="-2.4010674"
-   inkscape:transform-center-y="-1.8008006"
-   id="g111">
+   transform="matrix(1.0067031,-0.0487142,0.04030296,0.99139128,29.982941,46.664111)"
+   id="g46">
         <use
    class="empty-shape"
    href="#track"
-   id="use7473-1-1-1" />
+   id="use45" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use2612-1-1-1"
-   transform="translate(-0.00137051,2.18664)" />
+   id="use46"
+   transform="translate(-0.29022388,2.2689749)" />
       </g>
-      
-      
       <g
    class="car"
-   transform="matrix(0.827732,-0.573814,0.559023,0.820453,240.431,91.4515)"
-   inkscape:transform-center-x="-2.4010674"
-   inkscape:transform-center-y="-1.8008006"
-   id="g112">
+   transform="matrix(0.99660654,-0.13010484,0.1244616,0.98715682,172.67055,42.429919)"
+   id="g48">
         <use
    class="empty-shape"
    href="#track"
-   id="use7473-1-1-1-1" />
+   id="use47" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use2612-1-1-1-1"
-   transform="translate(-0.00137051,2.18664)" />
-      </g>
-      
-      
+   id="use48"
+   transform="translate(-0.00137051,2.1866411)" />
       </g></g></g>
 </svg>
