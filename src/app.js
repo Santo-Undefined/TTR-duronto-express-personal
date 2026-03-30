@@ -21,8 +21,10 @@ export const createApp = (game) => {
   app.get("/draw-deck-card", (context) => {
     const game = context.get("game");
     const drawnCard = game.drawDeckCard();
+    const { carCards } = game.playerHand();
+    console.log({ carCards });
 
-    return context.json({ drawnCard });
+    return context.json({ drawnCard, carCards });
   });
 
   app.post("/draw-faceup-card", async (context) => {

@@ -60,7 +60,9 @@ const fetchPlayerHand = async () => {
 
 const displayPlayerHand = ({ carCards }) => {
   const carCardTemplate = document.querySelector("#card");
+  const handContainer = document.querySelector(".hand-car-cards");
 
+  handContainer.innerHTML = "";
   const cardsInHand = Object.entries(carCards).map(([color, count]) => {
     const clone = carCardTemplate.content.cloneNode(true);
     const countContainer = clone.querySelector(".card-count");
@@ -71,10 +73,17 @@ const displayPlayerHand = ({ carCards }) => {
     return clone;
   });
 
-  const handContainer = document.querySelector(".hand-car-cards");
-  console.log(cardsInHand);
-
   handContainer.append(...cardsInHand);
+};
+
+const drawDeckCard = () => {
+  const deck = document.querySelector(".deck");
+  deck.addEventListener("click", async () => {
+    const res = await fetch("/draw-deck-card");
+    const { carCards } = await res.json();
+
+    displayPlayerHand({ carCards });
+  });
 };
 
 globalThis.onload = async () => {
@@ -82,6 +91,7 @@ globalThis.onload = async () => {
   displayPlayers(playerData);
   const cardsData = fetchFaceUpCards();
   displayFaceUpCards(cardsData);
+  drawDeckCard();
   const playerHand = await fetchPlayerHand();
   displayPlayerHand(playerHand);
 };

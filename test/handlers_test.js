@@ -91,6 +91,12 @@ describe("testing /draw-deck-card GET", () => {
     assertEquals(response.status, 200);
     assertEquals(await response.json(), {
       "drawnCard": "blue",
+      carCards: {
+        blue: 2,
+        green: 1,
+        pink: 1,
+        red: 1,
+      },
     });
   });
 
