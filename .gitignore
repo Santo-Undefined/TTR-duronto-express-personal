@@ -3,3 +3,4 @@ stories-acceptance-criteria/
 scratch/
 tmp/
 coverage/
+setup_commit.sh

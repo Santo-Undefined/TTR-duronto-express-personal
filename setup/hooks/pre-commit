@@ -1,7 +1,5 @@
 #! /bin/zsh
 
-#!/bin/bash
-
 set -e
 echo "🔄 Checking if branch is up to date..."
 
@@ -12,9 +10,7 @@ REMOTE=$(git rev-parse @{u})
 
 if [ "$LOCAL" != "$REMOTE" ]; then
   echo "❌ Your branch is not up to date with remote."
-  echo "hint:   git config pull.rebase false  # merge"
-  echo "hint:   git config pull.rebase true   # rebase"
-  echo "hint:   git config pull.ff only       # fast-forward only"
+  echo "👉 Run: git pull --rebase"
   exit 1
 fi
 
