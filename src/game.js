@@ -8,8 +8,11 @@ export default class Game {
   }
 
   initializePlayerHand() {
-    this.player.carCards.push(...this.#carCardsDeck.dealCards());
+    this.player.carCards.push(...this.#carCardsDeck.dealInitialCards());
     this.player.ticketChoices.push(...this.#ticketDeck.dealTicketChoices());
+  }
+
+  drawFaceUpCard() {
   }
 
   playerHand() {

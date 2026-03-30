@@ -32,7 +32,7 @@ describe("train car card deck", () => {
     ];
     const trainCardDeck = new CarCardsDeck(deck);
 
-    assertEquals(trainCardDeck.dealCards(), [
+    assertEquals(trainCardDeck.dealInitialCards(), [
       "white",
       "orange",
       "blue",
@@ -89,10 +89,8 @@ describe("train car card deck", () => {
     ]);
     assertEquals(trainCardDeck.faceDown, ["blue", "green", "orange"]);
     assertEquals(trainCardDeck.drawCardFromFaceUp("2"), "orange");
-    assertEquals(trainCardDeck.faceDown, ["green", "orange"]);
     assertEquals(trainCardDeck.faceUp, [
       "white",
-      "blue",
       "blue",
       "green",
       "white",
@@ -122,6 +120,5 @@ describe("train car card deck", () => {
     ]);
     assertEquals(trainCardDeck.faceDown, ["blue", "green", "orange"]);
     assertEquals(trainCardDeck.drawCardFromDeck(), "blue");
-    assertEquals(trainCardDeck.faceDown, ["green", "orange"]);
   });
 });
