@@ -1,45 +1,31 @@
 # Directory structure
 
 ```
-. 
-├── github/workflows 
-│ └── deno.yml
-│
-├── hooks 
-│   ├── pre-commit 
-│   └── pre-push 
-│
+.
+├── deno.json
+├── deno.lock
+├── DockerFile
+├── main.js
+├── public
+│   ├── index.html
+│   ├── scripts
+│   │   └── script.js
+│   └── styles
+│       └── style.css
+├── README.md
 ├── setup
-│   └── setup.sh 
-│
-├── data 
-│   └── db.json 
-│
-├── public 
-│    ├── assets 
-│    ├── scripts 
-│    │    └── script.js 
-│    ├── styles 
-│    │    └──style.css
-│    ├── pages 
-│    └── index.html 
-│
-├── src 
-│    └── app.js 
-├── test 
-│    └── test.js 
-│
-├── tmp 
-│    └── temp.txt 
-│
-├── scratch 
-│    └── scratch.md 
-│ 
-├── main.js 
-│ 
-├── deno.json 
-├── deno.lock 
-├── README.md 
-├── DockerFile 
-└── .gitignore
+│   └── hooks
+│       ├── pre-commit
+│       └── prepare-commit-msg
+├── setup.sh
+├── src
+│   └── app.js
+└── test
+    └── test.js
 ```
+
+# actions
+
+- [ ] deno init
+- [ ] add hono
+- [ ] add testing and assert packages
