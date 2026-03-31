@@ -18,24 +18,18 @@ export const fetchPlayerDetails = () => {
   ];
 };
 
-export const fetchInitialFaceUp = async () => {
-  const res = await fetch("/init-faceup");
-  const faceUpCards = await res.json();
+const get = (endpoint) => fetch(endpoint).then((resp) => resp.json());
 
-  return faceUpCards;
-};
-
-export const fetchPlayerHand = async () => {
-  return await fetch("/initial-hand").then((resp) => resp.json());
-};
-
-export const fetchFaceUpDeck = async (body) => {
-  return await fetch("/draw-faceup-card", {
+const post = (endpoint, body) =>
+  fetch(endpoint, {
     method: "post",
     body: JSON.stringify(body),
   }).then((resp) => resp.json());
-};
 
-export const fetchDeckCards = async () => {
-  return await fetch("/draw-deck-card").then((resp) => resp.json());
-};
+export const fetchInitialFaceUp = () => get("/init-faceup");
+
+export const fetchPlayerHand = () => get("/initial-hand");
+
+export const fetchFaceUpDeck = (body) => post("/draw-faceup-card", body);
+
+export const fetchDeckCards = () => get("/draw-deck-card");
