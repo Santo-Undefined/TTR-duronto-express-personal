@@ -12,6 +12,6 @@ export const displayPlayerHandTickets = (ticketChoices) => {
       `assets/destination-cards-images/${ticketChoices[index]}.png`,
     );
 
-    ticketElement.append(imageElement)
+    ticketElement.append(imageElement);
   });
 };
