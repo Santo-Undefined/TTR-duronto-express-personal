@@ -40,8 +40,9 @@ export const createApp = (game) => {
 
     const drawnCard = game.drawFaceUpCard(id);
     const { carCards } = game.playerHand();
+    const faceUpCards = game.getFaceUpCards();
 
-    return context.json({ drawnCard, carCards });
+    return context.json({ drawnCard, carCards, faceUpCards });
   });
 
   app.get("*", serveStatic({ root: "public" }));

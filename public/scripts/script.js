@@ -48,10 +48,11 @@ const fetchFaceUpCards = async () => {
 const displayFaceUpCards = (cards) => {
   const cardTemplate = document.querySelector("#face-up-cards");
   const container = document.querySelector(".faceup-cards");
+  container.innerHTML = "";
 
   cards.forEach((card, index) => {
     const clone = cardTemplate.content.cloneNode(true);
-    clone.querySelector(".card").id = index;
+    clone.querySelector(".card").id = index + 1;
     clone
       .querySelector(".card img")
       .setAttribute("src", `./assets/car-cards-images/${card}.jpg`);
@@ -101,8 +102,8 @@ const drawFaceUpCard = () => {
       body: JSON.stringify(body),
     });
 
-    const { carCards } = await res.json();
-
+    const { faceUpCards, carCards } = await res.json();
+    displayFaceUpCards(faceUpCards);
     displayPlayerHand({ carCards });
   });
 };

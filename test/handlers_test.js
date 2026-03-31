@@ -117,6 +117,12 @@ describe("testing /draw-deck-card GET", () => {
         red: 1,
         white: 1,
       },
+      faceUpCards: [
+        "yellow",
+        "orange",
+        "black",
+        "wild",
+      ],
     });
   });
 });
