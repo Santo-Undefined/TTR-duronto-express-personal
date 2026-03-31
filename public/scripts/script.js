@@ -48,6 +48,7 @@ export const displayCarCards = (carCards) => {
   const handContainer = document.querySelector(".hand-car-cards");
 
   handContainer.innerHTML = "";
+  console.log({ handContainer, carCards });
   const cardsInHand = Object.entries(carCards).map(([color, count]) => {
     const clone = carCardTemplate.content.cloneNode(true);
     const countContainer = clone.querySelector(".card-count");
