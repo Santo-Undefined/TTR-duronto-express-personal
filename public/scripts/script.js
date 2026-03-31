@@ -3,14 +3,17 @@ import {
   fetchPlayerDetails,
   fetchPlayerHand,
 } from "./api.js";
+
 import { drawDeckCard, drawFaceUpCard } from "./events.js";
+import { displayPlayerHandTickets } from "./render.js";
 
 const appendPlayer = ({ name, symbol, carCount }, container, template) => {
   const clone = template.content.cloneNode(true);
   clone.querySelector(".identifier .name").textContent = name;
   clone.querySelector(".identifier .symbol").style.backgroundColor = symbol;
 
-  clone.querySelector(".train-car-data img")
+  clone
+    .querySelector(".train-car-data img")
     .setAttribute("src", `assets/symbols/${symbol}.png`);
   clone.querySelector(".train-car-data .car-count").textContent = carCount;
 
@@ -40,7 +43,8 @@ const displayFaceUpCards = (cards) => {
   });
 };
 
-export const displayPlayerHand = ({ carCards }) => {
+export const displayPlayerHand = ({ carCards, ticketChoices }) => {
+  displayPlayerHandTickets(ticketChoices);
   const carCardTemplate = document.querySelector("#card");
   const handContainer = document.querySelector(".hand-car-cards");
 
