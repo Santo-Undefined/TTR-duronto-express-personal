@@ -24,7 +24,7 @@ const loadRoute = (map) => {
   });
 };
 
-const createStations = () => {
+export const createStations = () => {
   const posX = 100;
   let posY = 0;
   const container = document.querySelector("#routes_and_stations");
@@ -41,7 +41,7 @@ const createStations = () => {
   });
 };
 
-const createRoutes = () => {
+export const createRoutes = () => {
   const posX = 0;
   let posY = 30;
   const container = document.querySelector("#routes_and_stations");
@@ -67,8 +67,8 @@ globalThis.onload = async () => {
       mapContainer.appendChild(map);
     });
 
-  createStations();
-  createRoutes();
+  // createStations();
+  // createRoutes();
 
   loadRoute(mapContainer);
   mapContainer.addEventListener("click", claimRoute);
