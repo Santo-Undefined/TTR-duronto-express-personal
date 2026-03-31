@@ -1,25 +1,18 @@
 export default class Game {
   #ticketDeck;
   #carCardsDeck;
-  constructor(carCardsDeck, ticketDeck) {
+  #player;
+  constructor(carCardsDeck, ticketDeck, player) {
     this.#carCardsDeck = carCardsDeck;
     this.#ticketDeck = ticketDeck;
-    this.player = { carCards: {}, ticketChoices: [], bogies: 45 };
-  }
-
-  #addCardToPlayerHand(cards) {
-    return cards.reduce((updatedDeck, color) => {
-      updatedDeck[color] = (updatedDeck[color] || 0) + 1;
-      return updatedDeck;
-    }, {});
+    this.#player = player;
   }
 
   initializePlayerHand() {
     const dealtCards = this.#carCardsDeck.dealInitialCards();
-    this.player.carCards = this.#addCardToPlayerHand(dealtCards);
-    this.player.ticketChoices.push(
-      ...this.#ticketDeck.dealTicketChoices(),
-    );
+
+    dealtCards.forEach((card) => this.#player.addCarCardToHand(card));
+    this.#player.addTicketChoices(this.#ticketDeck.dealTicketChoices());
 
     this.#carCardsDeck.initFaceUp();
   }
@@ -30,22 +23,19 @@ export default class Game {
 
   drawFaceUpCard(id) {
     const drawnCard = this.#carCardsDeck.drawCardFromFaceUp(id);
-
-    this.player.carCards[drawnCard] = (this.player.carCards[drawnCard] || 0) +
-      1;
+    this.#player.addCarCardToHand(drawnCard);
 
     return drawnCard;
   }
 
   drawDeckCard() {
     const drawnCard = this.#carCardsDeck.drawCardFromDeck();
-    this.player.carCards[drawnCard] = (this.player.carCards[drawnCard] || 0) +
-      1;
+    this.#player.addCarCardToHand(drawnCard);
 
     return drawnCard;
   }
 
   playerHand() {
-    return this.player;
+    return this.#player.getPlayerHand();
   }
 }

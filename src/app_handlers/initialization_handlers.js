@@ -1,4 +1,5 @@
 export const initializePlayerHandHandler = (context) => {
+  console.log("Is this failing?");
   const game = context.get("game");
   game.initializePlayerHand();
 

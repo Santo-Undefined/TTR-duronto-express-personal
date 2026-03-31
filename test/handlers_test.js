@@ -4,6 +4,7 @@ import { createApp } from "../src/app.js";
 import { CarCardsDeck } from "../src/train_car_card_deck.js";
 import TicketDeck from "../src/ticket_deck.js";
 import Game from "../src/game.js";
+import Player from "../src/player.js";
 
 describe("testing /initial-hand GET", () => {
   let app;
@@ -31,11 +32,13 @@ describe("testing /initial-hand GET", () => {
 
     const carCardsDeck = new CarCardsDeck(carCards);
     const ticketDeck = new TicketDeck(ticketCards);
-    game = new Game(carCardsDeck, ticketDeck);
+    const player = new Player();
+
+    game = new Game(carCardsDeck, ticketDeck, player);
     app = createApp(game);
   });
 
-  it("testing /initial-hand GET", async () => {
+  it("/initial-hand GET should give the player's initial hand with 4 car cards, 3 ticket choices and 45 bogies", async () => {
     const response = await app.request("/initial-hand");
 
     assertEquals(response.status, 200);
@@ -95,7 +98,9 @@ describe("testing /draw-deck-card GET", () => {
 
     const carCardsDeck = new CarCardsDeck(carCards);
     const ticketDeck = new TicketDeck(ticketCards);
-    const game = new Game(carCardsDeck, ticketDeck);
+    const player = new Player();
+    const game = new Game(carCardsDeck, ticketDeck, player);
+
     game.initializePlayerHand();
     app = createApp(game);
   });
@@ -105,7 +110,7 @@ describe("testing /draw-deck-card GET", () => {
 
     assertEquals(response.status, 200);
     assertEquals(await response.json(), {
-      "drawnCard": "blue",
+      drawnCard: "blue",
       carCards: {
         blue: 2,
         green: 1,
@@ -132,13 +137,7 @@ describe("testing /draw-deck-card GET", () => {
         red: 1,
         white: 1,
       },
-      faceUpCards: [
-        "blue",
-        "yellow",
-        "orange",
-        "black",
-        "wild",
-      ],
+      faceUpCards: ["blue", "yellow", "orange", "black", "wild"],
     });
   });
 });

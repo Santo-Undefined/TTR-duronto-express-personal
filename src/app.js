@@ -23,7 +23,6 @@ export const createApp = (game) => {
   app.get("/init-faceup", initializeFaceUpDeckHandler);
   app.get("/initial-hand", initializePlayerHandHandler);
   app.get("/draw-deck-card", drawDeckCardHandler);
-
   app.post("/draw-faceup-card", drawFaceUpCardHandler);
 
   app.get("*", serveStatic({ root: "public" }));
