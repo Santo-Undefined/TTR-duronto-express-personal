@@ -22,16 +22,16 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:document-units="mm"
-   inkscape:zoom="1.2804335"
-   inkscape:cx="419.77969"
-   inkscape:cy="319.81355"
-   inkscape:window-width="1792"
-   inkscape:window-height="1062"
+   inkscape:zoom="1.2405182"
+   inkscape:cx="461.50069"
+   inkscape:cy="251.10474"
+   inkscape:window-width="1920"
+   inkscape:window-height="1022"
    inkscape:window-x="0"
    inkscape:window-y="30"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="routes_and_stations"
-   showgrid="true" />
+   inkscape:window-maximized="0"
+   showgrid="true"
+   inkscape:current-layer="routes_and_stations" />
   
   <defs
    id="defs1"><inkscape:path-effect
@@ -172,39 +172,17 @@
     <g
    id="route-VCR-CLC"
    class="route"
-   transform="matrix(0.59016405,0.35023338,-0.33652031,0.61421301,170.26713,-18.718341)"
+   transform="matrix(0.59016405,0.35023338,-0.33652031,0.61421301,184.80236,-34.108589)"
    inkscape:label="route-VCR-CLC">
-      <g
+      
+      
+      <path
+   d="M 99.67484,19.696829 152.03828,4.9305391 195.02609,-7.1144989"
+   style="fill:#000000;stroke:#000000"
+   id="path32"
+   sodipodi:nodetypes="ccc" /><g
    class="car"
-   transform="rotate(-18.621065,276.14093,-241.23371)"
-   id="g10">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use10" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use11"
-   transform="translate(-0.00137051,2.1866411)" />
-      </g>
-      <g
-   class="car"
-   transform="rotate(-18.697719,260.97807,-405.11714)"
-   id="g12">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use12" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use13"
-   transform="translate(0.36981662,2.3931608)" />
-      </g>
-      <g
-   class="car"
-   transform="rotate(-20.684817,275.88276,-66.407831)"
+   transform="matrix(1.4330735,-0.07402897,-0.05130562,1.4002514,92.968202,28.987902)"
    id="g2">
         <use
    class="empty-shape"
@@ -214,9 +192,20 @@
    class="claimed-shape"
    href="#train-car"
    id="use16"
-   transform="translate(-0.29022388,2.2689749)" />
+   transform="translate(-0.290224,2.26897)" />
       </g>
-    </g>
+    <g
+   id="g88"
+   transform="matrix(0.81675141,-0.00892878,-0.00892878,0.80618411,10.09096,25.011923)"><use
+     xlink:href="#g2"
+     transform="rotate(-15.863648,386.39741,361.36677)"
+     id="use86" /><use
+     xlink:href="#g2"
+     transform="rotate(-15.863648,349.43319,96.055823)"
+     id="use87" /><use
+     xlink:href="#g2"
+     transform="rotate(-15.863648,312.4679,-169.25527)"
+     id="use88" /></g></g>
     <g
    id="stn-HLN"
    transform="translate(22.381804,115.51956)">
@@ -418,10 +407,7 @@
    href="#train-car"
    id="use40"
    transform="translate(-0.00137051,2.1866411)" />
-      </g></g><path
-   d="m 131.718,115.492 c 0,0 18.7481,3.91266 45.4544,1.75508 13.3302,-1.07694 28.6431,-3.66623 44.597,-9.00932 13.4151,-4.49284 27.2833,-10.9328 40.8068,-20.0579"
-   style="display:none;fill:none;stroke:#000000;stroke-width:2"
-   id="path79" /><g
+      </g></g><g
    id="route-STL-CLC"
    class="route"
    transform="matrix(0.68205679,-0.03755115,0.03807003,0.52687062,65.131098,68.018564)"
@@ -499,5 +485,45 @@
       </g>
       
       
-      </g></g></g>
+      </g></g><g
+   id="station_ref"
+   transform="translate(177.06538,-41.089454)"
+   inkscape:label="station_ref"
+   style="display:inline">
+      <use
+   class="empty-shape"
+   href="#station"
+   id="use6"
+   transform="translate(315.64588,66.078829)" />
+      <text
+   xml:space="preserve"
+   style="writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:1"
+   x="314.22327"
+   y="58.70105"
+   id="text6"><tspan
+     sodipodi:role="line"
+     x="314.22327"
+     y="58.70105"
+     id="tspan6">CALCAGRY</tspan></text></g><g
+   class="car"
+   transform="matrix(0.63099146,0.02250023,-0.02487292,0.5708256,402.19242,27.778192)"
+   inkscape:transform-center-x="-3.0388442"
+   inkscape:transform-center-y="-0.1718156"
+   id="route_ref"
+   inkscape:label="route_ref"
+   style="display:inline">
+        <use
+   class="empty-shape"
+   href="#track"
+   id="use7473-1-1-1-1-7"
+   transform="matrix(0.99914625,-0.03208577,0.03008749,0.99988832,41.331809,-20.719282)" />
+        <use
+   class="claimed-shape"
+   href="#train-car"
+   id="use2612-1-1-1-1-9"
+   transform="matrix(0.99896485,-0.0316887,0.02787532,1.000152,41.313636,-18.091787)"
+   inkscape:transform-center-x="0.28393735"
+   inkscape:transform-center-y="-0.17877051"
+   style="opacity:1;fill:#000000;fill-opacity:1;stroke:#c7c739;stroke-width:1.66494;stroke-dasharray:none;stroke-opacity:0.149171" />
+      </g></g>
 </svg>
