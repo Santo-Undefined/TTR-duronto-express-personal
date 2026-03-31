@@ -1,4 +1,4 @@
-import { displayPlayerHand } from "./script.js";
+import { displayFaceUpCards, displayPlayerHand } from "./script.js";
 
 export const drawDeckCard = () => {
   const deck = document.querySelector(".deck");
@@ -20,8 +20,9 @@ export const drawFaceUpCard = () => {
       body: JSON.stringify(body),
     });
 
-    const { carCards } = await res.json();
+    const { faceUpCards, carCards } = await res.json();
 
+    displayFaceUpCards(faceUpCards);
     displayPlayerHand({ carCards });
   });
 };

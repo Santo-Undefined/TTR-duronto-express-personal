@@ -7,7 +7,6 @@ export class CarCardsDeck {
 
   initFaceUp() {
     const faceUpCards = this.faceDown.slice(0, 5);
-    console.log(faceUpCards);
 
     this.faceDown = this.faceDown.slice(5);
     this.faceUp = faceUpCards;
