@@ -44,10 +44,10 @@ describe("testing /initial-hand GET", () => {
     assertEquals(response.status, 200);
     assertEquals(await response.json(), {
       carCards: {
-        blue: 1,
-        green: 1,
-        pink: 1,
-        red: 1,
+        black: 1,
+        orange: 1,
+        wild: 1,
+        yellow: 1,
       },
       ticketChoices: ["t3", "t4", "t5"],
       bogies: 45,
@@ -60,11 +60,11 @@ describe("testing /initial-hand GET", () => {
 
     assertEquals(response.status, 200);
     assertEquals(await response.json(), [
+      "red",
+      "green",
+      "blue",
+      "pink",
       "white",
-      "yellow",
-      "orange",
-      "black",
-      "wild",
     ]);
   });
 });
@@ -110,12 +110,12 @@ describe("testing /draw-deck-card GET", () => {
 
     assertEquals(response.status, 200);
     assertEquals(await response.json(), {
-      drawnCard: "blue",
+      drawnCard: "pink",
       carCards: {
         blue: 2,
         green: 1,
         pink: 1,
-        red: 1,
+        white: 1,
       },
     });
   });
@@ -131,13 +131,11 @@ describe("testing /draw-deck-card GET", () => {
     assertEquals(await response.json(), {
       drawnCard: "white",
       carCards: {
-        blue: 1,
+        blue: 2,
         green: 1,
-        pink: 1,
-        red: 1,
-        white: 1,
+        white: 2,
       },
-      faceUpCards: ["blue", "yellow", "orange", "black", "wild"],
+      faceUpCards: ["pink", "yellow", "orange", "black", "wild"],
     });
   });
 });

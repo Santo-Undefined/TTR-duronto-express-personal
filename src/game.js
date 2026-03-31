@@ -18,7 +18,7 @@ export default class Game {
   }
 
   getFaceUpCards() {
-    return this.#carCardsDeck.faceUp;
+    return this.#carCardsDeck.getFaceUpCards();
   }
 
   drawFaceUpCard(id) {
