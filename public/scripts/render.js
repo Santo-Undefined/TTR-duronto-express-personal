@@ -27,6 +27,7 @@ export const displayFaceUpCards = (cards) => {
   cards.forEach((card, index) => {
     const clone = cardTemplate.content.cloneNode(true);
     clone.querySelector(".card").id = index + 1;
+    clone.querySelector(".card").setAttribute("data-color", card);
     clone
       .querySelector(".card img")
       .setAttribute("src", `./assets/car-cards-images/${card}.jpg`);
@@ -39,10 +40,11 @@ export const displayCarCards = (carCards) => {
   const handContainer = document.querySelector(".hand-car-cards");
 
   handContainer.innerHTML = "";
-  console.log({ handContainer, carCards });
+
   const cardsInHand = Object.entries(carCards).map(([color, count]) => {
     const clone = carCardTemplate.content.cloneNode(true);
     const countContainer = clone.querySelector(".card-count");
+    clone.querySelector(".img-container").setAttribute("data-color", color);
     const imageElement = clone.querySelector(".card-img");
     imageElement.setAttribute("src", `assets/car-cards-images/${color}.jpg`);
 
