@@ -87,6 +87,16 @@ svg {
   stroke: #ff0c0c;
 }
 
+.route[data-route-color="orange"] .empty-shape {
+  fill: #ff8401;
+  stroke: #0a0909;
+}
+
+.route[data-route-color="green"] .empty-shape {
+  fill: #68ed66;
+  stroke: #0a0909;
+}
+
 .route[data-route-color="transparent"] .empty-shape {
   fill: #e2e2e2;
   stroke: #ff0c0c;
