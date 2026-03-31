@@ -1,5 +1,5 @@
 import { fetchDeckCards, fetchFaceUpDeck } from "./api.js";
-import { displayCarCards, displayFaceUpCards } from "./script.js";
+import { displayCarCards, displayFaceUpCards } from "./render.js";
 
 export const drawDeckCard = () => {
   const deck = document.querySelector(".deck");
