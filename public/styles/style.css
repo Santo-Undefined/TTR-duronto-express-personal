@@ -148,6 +148,30 @@ footer {
   align-items: center;
 }
 
+#ticket-1 {
+  position: absolute;
+  top: -10px;
+}
+
+#ticket-2 {
+  position: absolute;
+  top: 20px;
+}
+
+#ticket-3 {
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+  background-color: aliceblue;
+}
+
+#ticket-1 img,
+#ticket-2 img,
+#ticket-3 img {
+  height: 100%;
+  width: 100%
+}
+
 .hand-destination-tickets .ticket {
   width: 180px;
   height: 110px;
