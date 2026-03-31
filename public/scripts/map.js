@@ -1,41 +1,4 @@
-const CITIES = {
-  "Vancouver": "VCR",
-  "Seattle": "STL",
-  "Portland": "PLD",
-  "San Francisco": "SFO",
-  "Salt Lake City": "SLC",
-  "Boston": "BSN",
-  "Charleston": "CLN",
-  "Nashville": "NVL",
-  "Pittsburgh": "PBH",
-  "Duluth": "DLT",
-  "New Orleans": "NOL",
-  "Raleigh": "RGH",
-  "El Paso": "ELP",
-  "Phoenix": "PHX",
-  "Santa Fe": "SFE",
-  "Denver": "DVR",
-  "Helena": "HLN",
-  "New York": "NYC",
-  "Miami": "MIM",
-  "St Louis": "SLS",
-  "Toronto": "TRT",
-  "Kansas City": "KCT",
-  "Houston": "HTN",
-  "Calgary": "CLC",
-  "Winnipeg": "WPG",
-  "Las Vegas": "LVS",
-  "Oklahoma City": "OKC",
-  "Sault St. Marie": "SSM",
-  "Montreal": "MTL",
-  "Washington": "WDC",
-  "Atlanta": "ATL",
-  "Chicago": "CHG",
-  "Omaha": "OMH",
-  "Little Rock": "LRK",
-  "Dallas": "DLS",
-  "Los Angeles":"LAS"
-};
+import { stationIds } from "./route_id.js";
 
 const claimRoute = (e) => {
   const userData = {
@@ -73,7 +36,7 @@ const createStations = () => {
   let posY = 0;
   const container = document.querySelector("#routes_and_stations");
   const stationRef = document.querySelector("#station_ref");
-  Object.entries(CITIES).forEach(([name, short]) => {
+  Object.entries(stationIds).forEach(([name, short]) => {
     const station = stationRef.cloneNode(true);
     station.id = short;
     const text = station.querySelector("tspan");

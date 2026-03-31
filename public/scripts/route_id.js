@@ -1,4 +1,4 @@
-const routeIds = [
+export const routeIds = [
   "CLC-VCR",
   "STL-VCR",
   "VCR-STL",
@@ -101,7 +101,7 @@ const routeIds = [
   "CLN-MIM",
 ];
 
-const stationIds = {
+export const stationIds = {
   "Vancouver": "VCR",
   "Seattle": "STL",
   "Portland": "PLD",
@@ -137,5 +137,5 @@ const stationIds = {
   "Omaha": "OMH",
   "Little Rock": "LRK",
   "Dallas": "DLS",
-  "Los Angeles":"LAS"
+  "Los Angeles": "LAS",
 };
