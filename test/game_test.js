@@ -3,6 +3,7 @@ import { assertEquals } from "@std/assert";
 import Game from "../src/game.js";
 import TicketDeck from "../src/ticket_deck.js";
 import { CarCardsDeck } from "../src/train_car_card_deck.js";
+import Player from "../src/player.js";
 
 describe("testing the game", () => {
   let game;
@@ -31,8 +32,9 @@ describe("testing the game", () => {
 
     const carCardsDeck = new CarCardsDeck(carCards);
     const ticketDeck = new TicketDeck(ticketCards);
+    const player = new Player();
 
-    game = new Game(carCardsDeck, ticketDeck);
+    game = new Game(carCardsDeck, ticketDeck, player);
     game.initializePlayerHand();
   });
 
@@ -40,9 +42,9 @@ describe("testing the game", () => {
     assertEquals(game.playerHand(), {
       carCards: {
         blue: 1,
-        green: 1,
+        black: 1,
         pink: 1,
-        red: 1,
+        wild: 1,
       },
       ticketChoices: ["t3", "t4", "t5"],
       bogies: 45,
@@ -53,11 +55,10 @@ describe("testing the game", () => {
     game.drawFaceUpCard("1");
     assertEquals(game.playerHand(), {
       carCards: {
-        blue: 1,
-        green: 1,
+        blue: 2,
+        black: 1,
         pink: 1,
-        red: 1,
-        white: 1,
+        wild: 1,
       },
       ticketChoices: ["t3", "t4", "t5"],
       bogies: 45,
@@ -68,13 +69,24 @@ describe("testing the game", () => {
     game.drawDeckCard();
     assertEquals(game.playerHand(), {
       carCards: {
-        "blue": 1,
-        "green": 1,
-        "pink": 2,
-        "red": 1,
+        blue: 1,
+        green: 1,
+        pink: 1,
+        wild: 1,
+        black: 1,
       },
       ticketChoices: ["t3", "t4", "t5"],
       bogies: 45,
     });
+  });
+
+  it("open face up deck of train car card", () => {
+    assertEquals(game.getFaceUpCards(), [
+      "blue",
+      "pink",
+      "white",
+      "yellow",
+      "orange",
+    ]);
   });
 });

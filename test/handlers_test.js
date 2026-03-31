@@ -4,9 +4,11 @@ import { createApp } from "../src/app.js";
 import { CarCardsDeck } from "../src/train_car_card_deck.js";
 import TicketDeck from "../src/ticket_deck.js";
 import Game from "../src/game.js";
+import Player from "../src/player.js";
 
 describe("testing /initial-hand GET", () => {
   let app;
+  let game;
   beforeEach(() => {
     const carCards = [
       "red",
@@ -30,24 +32,40 @@ describe("testing /initial-hand GET", () => {
 
     const carCardsDeck = new CarCardsDeck(carCards);
     const ticketDeck = new TicketDeck(ticketCards);
-    const game = new Game(carCardsDeck, ticketDeck);
+    const player = new Player();
+
+    game = new Game(carCardsDeck, ticketDeck, player);
     app = createApp(game);
   });
 
-  it("testing /initial-hand GET", async () => {
+  it("/initial-hand GET should give the player's initial hand with 4 car cards, 3 ticket choices and 45 bogies", async () => {
     const response = await app.request("/initial-hand");
 
     assertEquals(response.status, 200);
     assertEquals(await response.json(), {
       carCards: {
-        blue: 1,
-        green: 1,
-        pink: 1,
-        red: 1,
+        black: 1,
+        orange: 1,
+        wild: 1,
+        yellow: 1,
       },
       ticketChoices: ["t3", "t4", "t5"],
       bogies: 45,
     });
+  });
+
+  it("testing /init-faceup GET", async () => {
+    game.initializePlayerHand();
+    const response = await app.request("/init-faceup");
+
+    assertEquals(response.status, 200);
+    assertEquals(await response.json(), [
+      "red",
+      "green",
+      "blue",
+      "pink",
+      "white",
+    ]);
   });
 });
 
@@ -80,7 +98,9 @@ describe("testing /draw-deck-card GET", () => {
 
     const carCardsDeck = new CarCardsDeck(carCards);
     const ticketDeck = new TicketDeck(ticketCards);
-    const game = new Game(carCardsDeck, ticketDeck);
+    const player = new Player();
+    const game = new Game(carCardsDeck, ticketDeck, player);
+
     game.initializePlayerHand();
     app = createApp(game);
   });
@@ -90,7 +110,13 @@ describe("testing /draw-deck-card GET", () => {
 
     assertEquals(response.status, 200);
     assertEquals(await response.json(), {
-      "drawnCard": "blue",
+      drawnCard: "pink",
+      carCards: {
+        blue: 2,
+        green: 1,
+        pink: 1,
+        white: 1,
+      },
     });
   });
 
@@ -102,6 +128,14 @@ describe("testing /draw-deck-card GET", () => {
     });
 
     assertEquals(response.status, 200);
-    assertEquals(await response.json(), { drawnCard: "white" });
+    assertEquals(await response.json(), {
+      drawnCard: "white",
+      carCards: {
+        blue: 2,
+        green: 1,
+        white: 2,
+      },
+      faceUpCards: ["pink", "yellow", "orange", "black", "wild"],
+    });
   });
 });

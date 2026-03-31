@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>TTR</title>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/map.css">
   <script type="module" src="scripts/script.js"></script>
@@ -22,6 +22,7 @@
               <h2 class="name"></h2>
               <div class="symbol"></div>
             </div>
+
             <div class="train-car-data row">
               <img src="" alt="car">
               <p class="car-count"></p>
@@ -40,12 +41,12 @@
     
     <aside class="market">
       <div class="faceup-cards">
-        <template id="face-up-cards">
-          <div class="card">
-            <img src="" alt="">
-          </div>
-        </template>
       </div>
+      <template id="face-up-cards">
+        <div class="card">
+          <img src="" alt="">
+        </div>
+      </template>
       <div class="deck">
         <img src="assets/deck-images/car-card.png" alt="">
       </div>
@@ -54,24 +55,21 @@
   <footer>
     <div class="hand-destination-tickets">
       <div class="container">
-        <div class="ticket" id="a-b"></div>
-        <div class="ticket" id="a-c"></div>
-        <div class="ticket" id="c-b"></div>
+        <div class="ticket" id="ticket-1"></div>
+        <div class="ticket" id="ticket-2"></div>
+        <div class="ticket" id="ticket-3"></div>
       </div>
     </div>
 
-    <div class="hand-car-cards row">
-      <template id="card">
-        <div class="hand-car-card">
-          <span class="card-count"></span>
+    <template id="card">
+      <div class="hand-car-card">
+        <span class="card-count"></span>
+        <div class="img-container">
           <img class="card-img" src="" alt="">
         </div>
-      </template>
-
-      <div class="hand-car-card hand-card-red" id="card1">
-        <span class="card-count">3</span>
-        <img src="../blue.png" alt="">
       </div>
+    </template>
+    <div class="hand-car-cards">
     </div>
 
     <div class="destination-tickets-deck-container">
