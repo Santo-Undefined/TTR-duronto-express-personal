@@ -5,3 +5,4 @@ tmp/
 coverage/
 setup_commit.sh
 blue.png
+node_modules

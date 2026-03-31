@@ -1,4 +1,4 @@
-import { stationIds } from "./route_id.js";
+import { routeDetails, stationIds } from "./route_id.js";
 
 const claimRoute = (e) => {
   const userData = {
@@ -14,19 +14,12 @@ const claimRoute = (e) => {
 };
 
 const loadRoute = (map) => {
-  const data = [
-    { id: "STL-CLC", trackColor: "transparent" },
-    { id: "HLN-CLC", trackColor: "red" },
-    { id: "STL-HLN", trackColor: "yellow" },
-    { id: "STL-VCR", trackColor: "transparent" },
-    { id: "VCR-CLC", trackColor: "transparent" },
-  ];
-
-  data.forEach((route) => {
+  routeDetails.forEach((route) => {
     const track = map.querySelector(`#${route.id}`);
 
     track.setAttribute("class", "route");
     track.setAttribute("data-route-color", route.trackColor);
+    track.setAttribute("data-route-length", route.trackLength);
     track.setAttribute("data-owner-color", "none");
   });
 };
@@ -48,20 +41,12 @@ const createStations = () => {
   });
 };
 
-const ROUTES = [
-  "STL-CLC",
-  "HLN-CLC",
-  "STL-HLN",
-  "STL-VCR",
-  "VCR-CLC",
-];
-
 const createRoutes = () => {
   const posX = 0;
   let posY = 30;
   const container = document.querySelector("#routes_and_stations");
   const routeRef = document.querySelector("#route_ref");
-  ROUTES.forEach((id) => {
+  routeDetails.forEach(({ id }) => {
     const route = routeRef.cloneNode(true);
     route.id = id;
     route.setAttribute("inkscape:label", `route-${id}`);
@@ -87,10 +72,4 @@ globalThis.onload = async () => {
 
   loadRoute(mapContainer);
   mapContainer.addEventListener("click", claimRoute);
-  // const routes = document.querySelectorAll(".route");
-  // console.log([...routes]);
-  // routes.forEach((route) => {
-  //   console.log(route);
-  //   route.addEventListener("click", claimRoute);
-  // });
 };
