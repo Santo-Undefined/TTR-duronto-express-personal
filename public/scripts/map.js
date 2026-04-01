@@ -15,6 +15,7 @@ const claimRoute = (e) => {
 
 const loadRoute = (map) => {
   routeDetails.forEach((route) => {
+    console.log(route);
     const track = map.querySelector(`#${route.id}`);
 
     track.setAttribute("class", "route");
@@ -30,6 +31,8 @@ export const createStations = () => {
   const container = document.querySelector("#routes_and_stations");
   const stationRef = document.querySelector("#station_ref");
   Object.entries(stationIds).forEach(([name, short]) => {
+    if (container.querySelector(`stn-${short}`)) return;
+
     const station = stationRef.cloneNode(true);
     station.id = short;
     const text = station.querySelector("tspan");
