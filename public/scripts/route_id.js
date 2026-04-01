@@ -102,6 +102,7 @@ export const routeIds = [
   "CLN-RGH",
   "CLN-MIM",
 ];
+
 export const routeDetails = [
   { id: "CLC-VCR", trackColor: "transparent", trackLength: "3" },
   { id: "STL-VCR", trackColor: "transparent", trackLength: "1" },

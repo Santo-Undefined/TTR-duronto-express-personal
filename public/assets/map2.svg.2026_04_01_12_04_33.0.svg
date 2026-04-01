@@ -22,16 +22,16 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:document-units="mm"
-   inkscape:zoom="1.558166"
-   inkscape:cx="499.62585"
-   inkscape:cy="362.92668"
+   inkscape:zoom="2.4192552"
+   inkscape:cx="587.16418"
+   inkscape:cy="452.41196"
    inkscape:window-width="1920"
    inkscape:window-height="1022"
    inkscape:window-x="0"
    inkscape:window-y="30"
    inkscape:window-maximized="1"
    showgrid="true"
-   inkscape:current-layer="routes_and_stations" />
+   inkscape:current-layer="OKC-DLS" />
   
 
   <defs
@@ -54,7 +54,7 @@
     <color-profile
    name="SMPTE-RP-431-2-2007-DCI-P3"
    xlink:href="file:///System/Library/ColorSync/Profiles/DCI(P3)%20RGB.icc"
-   id="color-profile1" />
+   id="color-profile398" />
     <clipPath
    clipPathUnits="userSpaceOnUse"
    id="clipPath3"><rect
@@ -398,9 +398,9 @@
      y="85.358665"
      id="tspan14">RALEIGH</tspan></text></g><g
    id="ELP"
-   transform="translate(181.91878,530.35183)"
+   transform="translate(150.4625,523.96371)"
    inkscape:label="stn-ELP"
-   style="display:inline">
+   style="display: inline">
       <use
    class="empty-shape"
    href="#station"
@@ -408,13 +408,13 @@
    transform="translate(315.64588,66.078829)" />
       <text
    xml:space="preserve"
-   style="writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:1"
-   x="256.74103"
-   y="80.887177"
+   style="writing-mode: lr-tb; direction: ltr; opacity: 1; fill: #000000; fill-opacity: 1"
+   x="314.22327"
+   y="58.70105"
    id="text15"><tspan
      sodipodi:role="line"
-     x="256.74103"
-     y="80.887177"
+     x="314.22327"
+     y="58.70105"
      id="tspan15">EL PASO</tspan></text></g><g
    id="PHX"
    transform="translate(47.89746,398.519)"
@@ -436,9 +436,9 @@
      y="58.70105"
      id="tspan16">PHOENIX</tspan></text></g><g
    id="SFE"
-   transform="translate(165.54261,434.19524)"
+   transform="translate(157.69862,417.7942)"
    inkscape:label="stn-SFE"
-   style="display:inline">
+   style="display: inline">
       <use
    class="empty-shape"
    href="#station"
@@ -446,18 +446,18 @@
    transform="translate(315.64588,66.078829)" />
       <text
    xml:space="preserve"
-   style="writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:1"
-   x="270.01175"
-   y="47.291626"
+   style="writing-mode: lr-tb; direction: ltr; opacity: 1; fill: #000000; fill-opacity: 1"
+   x="314.22327"
+   y="58.70105"
    id="text17"><tspan
      sodipodi:role="line"
-     x="270.01175"
-     y="47.291626"
+     x="314.22327"
+     y="58.70105"
      id="tspan17">SANTA FE</tspan></text></g><g
    id="DVR"
-   transform="translate(213.98259,342.26912)"
+   transform="translate(250.68568,341.32184)"
    inkscape:label="stn-DVR"
-   style="display:inline">
+   style="display: inline">
       <use
    class="empty-shape"
    href="#station"
@@ -465,7 +465,7 @@
    transform="translate(315.64588,66.078829)" />
       <text
    xml:space="preserve"
-   style="writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:1"
+   style="writing-mode: lr-tb; direction: ltr; opacity: 1; fill: #000000; fill-opacity: 1"
    x="314.22327"
    y="58.70105"
    id="text18"><tspan
@@ -664,7 +664,7 @@
      y="58.70105"
      id="tspan28">LAS VEGAS</tspan></text></g><g
    id="OKC"
-   transform="translate(362.12247,409.48633)"
+   transform="translate(358.90752,404.43427)"
    inkscape:label="stn-OKC"
    style="display:inline">
       <use
@@ -820,7 +820,7 @@
      y="95.35527"
      id="tspan36">LITTLE ROCK</tspan></text></g><g
    id="DLS"
-   transform="translate(391.63287,501.22516)"
+   transform="translate(393.46998,498.46949)"
    inkscape:label="stn-DLS"
    style="display:inline">
       <use
@@ -831,12 +831,12 @@
       <text
    xml:space="preserve"
    style="writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:1"
-   x="340.86139"
-   y="71.101562"
+   x="342.69852"
+   y="75.235062"
    id="text37"><tspan
      sodipodi:role="line"
-     x="340.86139"
-     y="71.101562"
+     x="342.69852"
+     y="75.235062"
      id="tspan37">DALLAS</tspan></text></g><g
    id="LAS"
    transform="translate(-102.66396,439.5926)"
@@ -1783,14 +1783,14 @@
       </g></g><g
    id="HLN-DVR"
    inkscape:label="route-HLN-DVR"
-   transform="translate(252.00687,327.8261)"
+   transform="translate(271.26027,324.97374)"
    class="route"
    data-route-color="green"
    data-route-length="4"
    data-owner-color="none">
       <path
    d="m 191.662,-28.7058 c 45.4499,21.0673 27.6393,81.4151 89.5365,108.386"
-   style="display:none;fill:none;stroke:#000000;stroke-width:1.11286"
+   style="display: none; fill: none; stroke: #000000; stroke-width: 1.11286"
    id="path223" /><g
    id="g237"><g
      class="car"
@@ -1798,7 +1798,7 @@
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
-     style="display:inline"
+     style="display: inline"
      id="g233">
           <use
    class="empty-shape"
@@ -1812,14 +1812,14 @@
    transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
+   style="display: inline" />
         </g><g
      class="car"
      transform="matrix(0.260062,0.575319,-0.522469,0.231217,199.306,-39.9032)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
-     style="display:inline"
+     style="display: inline"
      id="g234">
           <use
    class="empty-shape"
@@ -1833,14 +1833,14 @@
    transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
+   style="display: inline" />
         </g><g
      class="car"
      transform="matrix(0.28663,0.562542,-0.511096,0.25535,215.308,0.419378)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
-     style="display:inline"
+     style="display: inline"
      id="g235">
           <use
    class="empty-shape"
@@ -1854,14 +1854,14 @@
    transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
+   style="display: inline" />
         </g><g
      class="car"
      transform="matrix(0.515974,0.363858,-0.332947,0.464306,227.967,47.4923)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
-     style="display:inline"
+     style="display: inline"
      id="g236">
           <use
    class="empty-shape"
@@ -1875,7 +1875,7 @@
    transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
+   style="display: inline" />
         </g></g></g><g
    id="HLN-SLC"
    inkscape:label="route-HLN-SLC"
@@ -2372,196 +2372,62 @@
       </g></g><g
    id="DVR-KCT"
    inkscape:label="route-DVR-KCT"
-   transform="translate(454.78399,360.25953)"
+   transform="translate(437.66986,394.13126)"
    class="route"
    data-route-color="black"
    data-route-length="4"
    data-owner-color="none">
-      <path
-   d="m 228.713,55.7729 c 0,0 -72.022,34.5848 -112.312,15.3314"
-   style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
-   id="path123" /><g
-   id="g127"><g
-     class="car"
-     transform="matrix(-0.583335,0.241525,-0.214386,-0.52959,265.68,34.8878)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g123">
+      <g
+   class="car"
+   transform="matrix(0.63099146,0.02250023,-0.02487292,0.5708256,153.66841,25.498155)"
+   inkscape:transform-center-x="-3.0388442"
+   inkscape:transform-center-y="-0.1718156"
+   id="g102"
+   inkscape:label="one_track"
+   style="display: inline">
         <use
    class="empty-shape"
    href="#track"
-   id="use64810-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
+   id="use99"
+   transform="matrix(0.99914625,-0.03208577,0.03008749,0.99988832,41.331809,-20.719282)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use9775-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
+   id="use100"
+   transform="matrix(0.99896485,-0.0316887,0.02787532,1.000152,44.058798,-17.201423)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(-0.606889,0.174102,-0.153206,-0.550422,236.393,51.2405)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g124">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use64810-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use9775-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(-0.628532,0.0597602,-0.0495825,-0.569189,206.041,66.3987)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g125">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use64810-1-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use9775-1-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(-0.618324,-0.12767,0.119951,-0.558612,173.37,79.1518)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g126">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use64810-1-1-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use9775-1-1-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g></g></g><g
+   style="display: inline" />
+      </g></g><g
    id="KCT-DVR"
    inkscape:label="route-KCT-DVR"
-   transform="translate(422.10636,346.88637)"
+   transform="translate(423.53253,382.89737)"
    class="route"
    data-route-color="orange"
    data-route-length="4"
    data-owner-color="none">
-      <path
-   d="m 259.251,50.6057 c 0,0 -72.022,34.5848 -112.312,15.3314"
-   style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
-   id="path123-1" /><g
-   id="g134"><g
-     class="car"
-     transform="matrix(-0.583335,0.241525,-0.214386,-0.52959,296.218,29.7206)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g130">
+      <g
+   class="car"
+   transform="matrix(0.63099146,0.02250023,-0.02487292,0.5708256,153.66841,25.498155)"
+   inkscape:transform-center-x="-3.0388442"
+   inkscape:transform-center-y="-0.1718156"
+   id="g103"
+   inkscape:label="one_track"
+   style="display: inline">
         <use
    class="empty-shape"
    href="#track"
-   id="use7876-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
+   id="use101"
+   transform="matrix(0.99914625,-0.03208577,0.03008749,0.99988832,41.331809,-20.719282)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use49204-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
+   id="use102"
+   transform="matrix(0.99896485,-0.0316887,0.02787532,1.000152,44.058798,-17.201423)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(-0.606889,0.174102,-0.153206,-0.550422,266.931,46.0733)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g131">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use7876-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use49204-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(-0.628532,0.0597602,-0.0495825,-0.569189,236.579,61.2315)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g132">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use7876-1-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use49204-1-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(-0.618324,-0.12767,0.119951,-0.558612,203.908,73.9846)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g133">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use7876-1-1-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use49204-1-1-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g></g></g><g
+   style="display: inline" />
+      </g></g><g
    id="DVR-OMH"
    inkscape:label="route-DVR-OMH"
    transform="translate(383.47675,325.71714)"
@@ -2593,404 +2459,152 @@
       </g></g><g
    id="DVR-OKC"
    inkscape:label="route-DVR-OKC"
-   transform="translate(408.52738,465.71622)"
+   transform="translate(399.97031,442.89737)"
    class="route"
    data-route-color="red"
    data-route-length="4"
    data-owner-color="none">
-      <path
-   d="m 154.465,-15.021 c 0,0 40.6461,39.933 97.6932,42.0722"
-   style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
-   id="path144" /><g
-   id="g148"><g
-     class="car"
-     transform="matrix(0.447689,0.445123,-0.405996,0.401933,120.947,-41.0785)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g144">
+      <g
+   class="car"
+   transform="matrix(0.63099146,0.02250023,-0.02487292,0.5708256,153.66841,25.498155)"
+   inkscape:transform-center-x="-3.0388442"
+   inkscape:transform-center-y="-0.1718156"
+   id="g106"
+   inkscape:label="one_track"
+   style="display: inline">
         <use
    class="empty-shape"
    href="#track"
-   id="use34050-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
+   id="use105"
+   transform="matrix(0.99914625,-0.03208577,0.03008749,0.99988832,41.331809,-20.719282)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use69211-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
+   id="use106"
+   transform="matrix(0.99896485,-0.0316887,0.02787532,1.000152,44.058798,-17.201423)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.524269,0.351772,-0.32207,0.471898,143.621,-14.2548)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g145">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use34050-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use69211-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.586302,0.234255,-0.216171,0.528873,170.85,8.39239)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g146">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use34050-1-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use69211-1-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.62564,0.0847201,-0.0811377,0.565539,202.223,25.9788)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g147">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use34050-1-1-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use69211-1-1-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g></g></g><g
+   style="display: inline" />
+      </g></g><g
    id="DVR-SFE"
    inkscape:label="route-DVR-SFE"
-   transform="translate(311.00904,424.10102)"
+   transform="translate(340.24569,430.51882)"
    class="route"
    data-route-color="transparent"
    data-route-length="2"
    data-owner-color="none">
-      <path
-   d="M 197.478,58.111 221.723,11.7602"
-   style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
-   id="path162" /><g
-   id="g164"><g
-     class="car"
-     transform="matrix(0.3124 -0.548691 0.49428 0.286616 181.105 97.2878)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g162">
+      <g
+   class="car"
+   transform="matrix(0.63099146,0.02250023,-0.02487292,0.5708256,153.66841,25.498155)"
+   inkscape:transform-center-x="-3.0388442"
+   inkscape:transform-center-y="-0.1718156"
+   id="g108"
+   inkscape:label="one_track"
+   style="display: inline">
         <use
    class="empty-shape"
    href="#track"
-   id="use51708-1"
-   transform="matrix(0.999146 -0.0320858 0.0300875 0.999888 41.3318 -20.7193)" />
+   id="use107"
+   transform="matrix(0.99914625,-0.03208577,0.03008749,0.99988832,41.331809,-20.719282)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use61817-1"
-   transform="matrix(0.998965 -0.0316887 0.0278753 1.00015 44.0588 -17.2014)"
+   id="use108"
+   transform="matrix(0.99896485,-0.0316887,0.02787532,1.000152,44.058798,-17.201423)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.3124 -0.548691 0.49428 0.286616 196.707 67.4593)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g163">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use51708-1-1"
-   transform="matrix(0.999146 -0.0320858 0.0300875 0.999888 41.3318 -20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use61817-1-1"
-   transform="matrix(0.998965 -0.0316887 0.0278753 1.00015 44.0588 -17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g></g></g><g
+   style="display: inline" />
+      </g></g><g
    id="SFE-ELP"
    inkscape:label="route-SFE-ELP"
-   transform="translate(292.43927,521.09862)"
+   transform="translate(289.58691,518.24626)"
    class="route"
    data-route-color="transparent"
    data-route-length="2"
    data-owner-color="none">
-      <path
-   d="m 208.994,13.2132 4.99162,52.7686"
-   style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
-   id="path174" /><g
-   id="g176"
-   transform="translate(-3.5654452,10.696336)"><g
-     class="car"
-     transform="matrix(0.0370228,0.630306,-0.570631,0.0289947,201.376,-28.5586)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g174">
+      <g
+   class="car"
+   transform="matrix(0.63099146,0.02250023,-0.02487292,0.5708256,153.66841,25.498155)"
+   inkscape:transform-center-x="-3.0388442"
+   inkscape:transform-center-y="-0.1718156"
+   id="g110"
+   inkscape:label="one_track"
+   style="display: inline">
         <use
    class="empty-shape"
    href="#track"
-   id="use39514-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
+   id="use109"
+   transform="matrix(0.99914625,-0.03208577,0.03008749,0.99988832,41.331809,-20.719282)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use1128-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
+   id="use110"
+   transform="matrix(0.99896485,-0.0316887,0.02787532,1.000152,44.058798,-17.201423)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.0370228,0.630306,-0.570631,0.0289947,204.546,4.95465)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g175">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use39514-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use1128-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g></g></g><g
+   style="display: inline" />
+      </g></g><g
    id="SFE-OKC"
    inkscape:label="route-SFE-OKC"
-   transform="rotate(-6.1389595,5111.5009,-3426.5056)"
+   transform="translate(368.52036,478.73771)"
    class="route"
    data-route-color="blue"
    data-route-length="3"
    data-owner-color="none">
-      <path
-   d="m 143.942,0.638421 91.9885,2.85235"
-   style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
-   id="path152" /><g
-   id="g165"><g
-     class="car"
-     transform="matrix(0.629991,0.0420456,-0.0425524,0.569781,101.546,2.9756)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g159">
+      <g
+   class="car"
+   transform="matrix(0.63099146,0.02250023,-0.02487292,0.5708256,153.66841,25.498155)"
+   inkscape:transform-center-x="-3.0388442"
+   inkscape:transform-center-y="-0.1718156"
+   id="g112"
+   inkscape:label="one_track"
+   style="display: inline">
         <use
    class="empty-shape"
    href="#track"
-   id="use88183-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
+   id="use111"
+   transform="matrix(0.99914625,-0.03208577,0.03008749,0.99988832,41.331809,-20.719282)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use82658-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
+   id="use112"
+   transform="matrix(0.99896485,-0.0316887,0.02787532,1.000152,44.058798,-17.201423)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.629991,0.0420456,-0.0425524,0.569781,135.192,4.01891)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g160">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use88183-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use82658-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.629991,0.0420456,-0.0425524,0.569781,168.839,5.06221)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g161">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use88183-1-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use82658-1-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g></g></g><g
+   style="display: inline" />
+      </g></g><g
    id="ELP-OKC"
    inkscape:label="route-ELP-OKC"
-   transform="translate(427.36925,578.84931)"
+   transform="translate(385.01392,526.40938)"
    class="route"
    data-route-color="yellow"
    data-route-length="5"
    data-owner-color="none">
-      <path
-   d="m 111.638,-11.1799 c 0,0 82.6937,5.0423 129.083,-57.4822"
-   style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
-   id="path47" /><g
-   id="g53"><g
-     class="car"
-     transform="matrix(0.629368,0.0502147,-0.0499402,0.569159,69.2165,-9.3931)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g47">
+      <g
+   class="car"
+   transform="matrix(0.63099146,0.02250023,-0.02487292,0.5708256,153.66841,25.498155)"
+   inkscape:transform-center-x="-3.0388442"
+   inkscape:transform-center-y="-0.1718156"
+   id="g114"
+   inkscape:label="one_track"
+   style="display: inline">
         <use
    class="empty-shape"
    href="#track"
-   id="use26412-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
+   id="use113"
+   transform="matrix(0.99914625,-0.03208577,0.03008749,0.99988832,41.331809,-20.719282)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use94617-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
+   id="use114"
+   transform="matrix(0.99896485,-0.0316887,0.02787532,1.000152,44.058798,-17.201423)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.625107,-0.0887529,0.0758427,0.566297,104.151,-2.62152)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g48">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use26412-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use94617-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.599908,-0.196791,0.173787,0.544267,139.189,-4.27709)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g49">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use26412-1-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use94617-1-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.538921,-0.328941,0.293806,0.490025,174.33,-11.0751)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g50">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use26412-1-1-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use94617-1-1-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g><g
-     class="car"
-     transform="matrix(0.439653,-0.453141,0.406905,0.401085,207.426,-25.4775)"
-     inkscape:transform-center-x="-3.0388442"
-     inkscape:transform-center-y="-0.1718156"
-     inkscape:label="one_track"
-     style="display:inline"
-     id="g51">
-        <use
-   class="empty-shape"
-   href="#track"
-   id="use26412-1-1-1-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
-        <use
-   class="claimed-shape"
-   href="#train-car"
-   id="use94617-1-1-1-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
-   inkscape:transform-center-x="0.28393735"
-   inkscape:transform-center-y="-0.17877051"
-   style="display:inline" />
-      </g></g></g><g
+   style="display: inline" />
+      </g></g><g
    id="ELP-DLS"
    inkscape:label="route-ELP-DLS"
-   transform="translate(409.57516,584.16564)"
+   transform="translate(401.50748,574.08104)"
    class="route"
    data-route-color="red"
    data-route-length="4"
@@ -4282,107 +3896,107 @@
       </g></g></g><g
    id="OKC-DLS"
    inkscape:label="route-OKC-DLS"
-   transform="translate(471.0961,538.45628)"
+   transform="translate(465.12548,523.3001)"
    class="route"
    data-route-color="transparent"
    data-route-length="2"
    data-owner-color="none">
       <path
-   d="m 219.922,-20.4786 11.023,48.6835"
-   style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
-   id="path5-5" /><g
-   id="g9"><g
+   d="m 183.197 -43.1889 l 9.18555 45.0093"
+   style="display:inline;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
+   id="path395-0" /><g
+   id="g400"><g
      class="car"
-     transform="matrix(0.117398,0.620382,-0.562226,0.101798,207.02,-60.9317)"
+     transform="matrix(0.104127 0.622747 -0.564271 0.0897715 171.162 -83.9082)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g7">
+     id="g398">
         <use
    class="empty-shape"
    href="#track"
-   id="use14858-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
+   id="use12338-1"
+   transform="matrix(0.999146 -0.0320858 0.0300875 0.999888 41.3318 -20.7193)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use68428-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
+   id="use43696-1"
+   transform="matrix(0.998965 -0.0316887 0.0278753 1.00015 44.0588 -17.2014)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
    style="display:inline" />
       </g><g
      class="car"
-     transform="matrix(0.117398,0.620382,-0.562226,0.101798,214.454,-28.0999)"
+     transform="matrix(0.104127 0.622747 -0.564271 0.0897715 177.893 -50.9252)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g8">
+     id="g399">
         <use
    class="empty-shape"
    href="#track"
-   id="use14858-1-1"
-   transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
+   id="use12338-1-1"
+   transform="matrix(0.999146 -0.0320858 0.0300875 0.999888 41.3318 -20.7193)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use68428-1-1"
-   transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
+   id="use43696-1-1"
+   transform="matrix(0.998965 -0.0316887 0.0278753 1.00015 44.0588 -17.2014)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
    style="display:inline" />
       </g></g></g><g
    id="DLS-OKC"
    inkscape:label="route-DLS-OKC"
-   transform="translate(479.66226,525.04567)"
+   transform="translate(481.49937,528.7199)"
    class="route"
    data-route-color="transparent"
    data-route-length="2"
    data-owner-color="none">
       <path
-   d="M 228.808,-9.82368 239.831,38.8598"
-   style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
-   id="path5" /><g
-   id="g15"><g
+   d="m 221.937,-13.2442 9.18555,45.0093"
+   style="display:inline;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
+   id="path395" /><g
+   id="g401"><g
      class="car"
-     transform="matrix(0.117398,0.620382,-0.562226,0.101798,215.906,-50.2767)"
+     transform="matrix(0.104127,0.622747,-0.564271,0.0897715,209.902,-53.9635)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g5">
+     id="g396">
         <use
    class="empty-shape"
    href="#track"
-   id="use7206-1"
+   id="use76397-1"
    transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use48846-1"
+   id="use89216-1"
    transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
    style="display:inline" />
       </g><g
      class="car"
-     transform="matrix(0.117398,0.620382,-0.562226,0.101798,223.34,-17.445)"
+     transform="matrix(0.104127,0.622747,-0.564271,0.0897715,216.633,-20.9805)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g6">
+     id="g397">
         <use
    class="empty-shape"
    href="#track"
-   id="use7206-1-1"
+   id="use76397-1-1"
    transform="matrix(0.999146,-0.0320858,0.0300875,0.999888,41.3318,-20.7193)" />
         <use
    class="claimed-shape"
    href="#train-car"
-   id="use48846-1-1"
+   id="use89216-1-1"
    transform="matrix(0.998965,-0.0316887,0.0278753,1.00015,44.0588,-17.2014)"
    inkscape:transform-center-x="0.28393735"
    inkscape:transform-center-y="-0.17877051"
@@ -5383,7 +4997,7 @@
    d="m 169.61,57.268 c 0,0 45.8178,-22.4924 89.9695,-7.49746"
    style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path143" /><g
-   id="g151"
+   id="g149"
    transform="translate(19.16016,-3.3322017)"><g
      class="car"
      transform="matrix(0.583377,-0.241327,0.214206,0.529627,132.639,78.1402)"
@@ -5412,7 +5026,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g149">
+     id="g145">
         <use
    class="empty-shape"
    href="#track"
@@ -5433,7 +5047,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g150">
+     id="g147">
         <use
    class="empty-shape"
    href="#track"
@@ -5459,14 +5073,14 @@
    d="m 160.614,28.6584 c 0,0 45.8178,-22.4924 89.9695,-7.49746"
    style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path143-32" /><g
-   id="g169"><g
+   id="g166"><g
      class="car"
      transform="matrix(0.583377,-0.241327,0.214206,0.529627,123.643,49.5306)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g166">
+     id="g163">
         <use
    class="empty-shape"
    href="#track"
@@ -5487,7 +5101,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g167">
+     id="g164">
         <use
    class="empty-shape"
    href="#track"
@@ -5508,7 +5122,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g168">
+     id="g165">
         <use
    class="empty-shape"
    href="#track"
@@ -5630,14 +5244,14 @@
    d="M 195.986,9.22199 252.634,39.2118"
    style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path21" /><g
-   id="g57"><g
+   id="g55"><g
      class="car"
      transform="matrix(0.547136,0.315116,-0.289063,0.492853,156.891,-7.34527)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g55">
+     id="g51">
         <use
    class="empty-shape"
    href="#track"
@@ -5658,7 +5272,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g56">
+     id="g53">
         <use
    class="empty-shape"
    href="#track"
@@ -5879,7 +5493,7 @@
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path4"
    sodipodi:nodetypes="cc" /><g
-   id="g22"
+   id="g16"
    style="display:inline"><g
      class="car"
      transform="matrix(0.186042,0.603361,-0.547315,0.164036,120.049,-6.15051)"
@@ -5887,7 +5501,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g16">
+     id="g9">
         <use
    class="empty-shape"
    href="#track"
@@ -5908,7 +5522,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g17">
+     id="g15">
         <use
    class="empty-shape"
    href="#track"
@@ -5934,14 +5548,14 @@
    d="m 108.12,48.148 18.3271,59.1466"
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path3" /><g
-   id="g29"><g
+   id="g24"><g
      class="car"
      transform="matrix(0.165266,0.609379,-0.552612,0.145192,92.1127,8.82021)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g23">
+     id="g22">
         <use
    class="empty-shape"
    href="#track"
@@ -5962,7 +5576,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g24">
+     id="g23">
         <use
    class="empty-shape"
    href="#track"
@@ -6119,14 +5733,14 @@
    d="M 162.284,73.0207 201.4376,36.3665"
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path41" /><g
-   id="g60"><g
+   id="g58"><g
      class="car"
      transform="matrix(0.476015,-0.414807,0.371957,0.433715,133.896,104.596)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g58">
+     id="g56">
         <use
    class="empty-shape"
    href="#track"
@@ -6147,7 +5761,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g59">
+     id="g57">
         <use
    class="empty-shape"
    href="#track"
@@ -6282,7 +5896,7 @@
    d="m 205.907,-2.98129 17.494,63.3118"
    style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path55" /><g
-   id="g64"
+   id="g61"
    transform="translate(-0.83305043,11.662706)"><g
      class="car"
      transform="matrix(0.146367,0.614193,-0.556833,0.128056,191.122,-42.7847)"
@@ -6290,7 +5904,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g61">
+     id="g59">
         <use
    class="empty-shape"
    href="#track"
@@ -6311,7 +5925,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g63">
+     id="g60">
         <use
    class="empty-shape"
    href="#track"
@@ -6433,7 +6047,7 @@
    d="M 76.6764,58.3217 115.83,21.6675"
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path24" /><g
-   id="g39"
+   id="g31"
    transform="translate(6.6644034,-10.829656)"><g
      class="car"
      transform="matrix(0.476015,-0.414807,0.371957,0.433715,48.2884,89.8975)"
@@ -6441,7 +6055,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g30">
+     id="g29">
         <use
    class="empty-shape"
    href="#track"
@@ -6462,7 +6076,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g31">
+     id="g30">
         <use
    class="empty-shape"
    href="#track"
@@ -6488,14 +6102,14 @@
    d="M 88.7924,22.7618 127.946,-13.8924"
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path24-7" /><g
-   id="g65"><g
+   id="g46"><g
      class="car"
      transform="matrix(0.476015,-0.414807,0.371957,0.433715,60.4044,54.3376)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g40">
+     id="g39">
         <use
    class="empty-shape"
    href="#track"
@@ -6516,7 +6130,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g46">
+     id="g40">
         <use
    class="empty-shape"
    href="#track"
@@ -6542,14 +6156,14 @@
    d="m 177.158,41.0844 11.5046,-52.3852"
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path58" /><g
-   id="g81"><g
+   id="g65"><g
      class="car"
      transform="matrix(0.157326,-0.611477,0.552204,0.146738,171.649,83.1862)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g67">
+     id="g63">
         <use
    class="empty-shape"
    href="#track"
@@ -6570,7 +6184,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g69">
+     id="g64">
         <use
    class="empty-shape"
    href="#track"
@@ -6596,14 +6210,14 @@
    d="m 104.411,29.0999 11.5046,-52.3852"
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path24-7-9-1" /><g
-   id="g87"><g
+   id="g81"><g
      class="car"
      transform="matrix(0.157326,-0.611477,0.552204,0.146738,98.9018,71.2017)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g83">
+     id="g67">
         <use
    class="empty-shape"
    href="#track"
@@ -6624,7 +6238,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g85">
+     id="g69">
         <use
    class="empty-shape"
    href="#track"
@@ -6650,14 +6264,14 @@
    d="M 212.348,51.0731 223.8526,-1.3121"
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path58-3-8" /><g
-   id="g107"><g
+   id="g87"><g
      class="car"
      transform="matrix(0.157326,-0.611477,0.552204,0.146738,206.839,93.1749)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g89">
+     id="g83">
         <use
    class="empty-shape"
    href="#track"
@@ -6678,7 +6292,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g105">
+     id="g85">
         <use
    class="empty-shape"
    href="#track"
@@ -6704,14 +6318,14 @@
    d="m 193.711,-51.3556 11.5046,-52.3852"
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path58-3" /><g
-   id="g113"><g
+   id="g107"><g
      class="car"
      transform="matrix(0.157326,-0.611477,0.552204,0.146738,188.202,-9.25415)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g109">
+     id="g89">
         <use
    class="empty-shape"
    href="#track"
@@ -6732,7 +6346,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g111">
+     id="g105">
         <use
    class="empty-shape"
    href="#track"
@@ -6758,7 +6372,7 @@
    d="m 135.656,67.2142 c 0,0 28.3237,-33.322 84.1381,-4.9983"
    style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path131" /><g
-   id="g140"
+   id="g137"
    transform="rotate(13.501021,203.0905,118.97448)"><g
      class="car"
      transform="matrix(0.439559,-0.453155,0.406919,0.400999,110.015,101.052)"
@@ -6766,7 +6380,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g135">
+     id="g131">
         <use
    class="empty-shape"
    href="#track"
@@ -6787,7 +6401,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g137">
+     id="g133">
         <use
    class="empty-shape"
    href="#track"
@@ -6808,7 +6422,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g139">
+     id="g135">
         <use
    class="empty-shape"
    href="#track"
@@ -6864,14 +6478,14 @@
    d="M 182.812,26.9821 212.2433,-17.855"
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path58-3-0-8" /><g
-   id="g128"><g
+   id="g113"><g
      class="car"
      transform="matrix(0.365064,-0.515154,0.463555,0.334033,162.649,64.3503)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
-     style="display:none"
-     id="g114">
+     style="display:inline"
+     id="g109">
         <use
    class="empty-shape"
    href="#track"
@@ -6892,7 +6506,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g122">
+     id="g111">
         <use
    class="empty-shape"
    href="#track"
@@ -6918,14 +6532,14 @@
    d="m 217.76,29.5919 29.4313,-44.8371"
    style="display:none;fill:#484848;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path58-3-0" /><g
-   id="g142"><g
+   id="g139"><g
      class="car"
      transform="matrix(0.365064,-0.515154,0.463555,0.334033,197.597,66.9601)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g129">
+     id="g124">
         <use
    class="empty-shape"
    href="#track"
@@ -6946,7 +6560,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g141">
+     id="g129">
         <use
    class="empty-shape"
    href="#track"
@@ -7027,14 +6641,14 @@
    d="M 208.092,-136.421 291.3971,-4.799"
    style="display:none;fill:none;fill-opacity:0.328294;stroke:#000000;stroke-width:1.11286"
    id="path165" /><g
-   id="g180"><g
+   id="g175"><g
      class="car"
      transform="matrix(0.31844 0.545208 -0.495639 0.284259 182.384 -170.215)"
      inkscape:transform-center-x="-3.0388442"
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g170">
+     id="g167">
         <use
    class="empty-shape"
    href="#track"
@@ -7055,7 +6669,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g171">
+     id="g168">
         <use
    class="empty-shape"
    href="#track"
@@ -7076,7 +6690,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g172">
+     id="g169">
         <use
    class="empty-shape"
    href="#track"
@@ -7097,7 +6711,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g173">
+     id="g171">
         <use
    class="empty-shape"
    href="#track"
@@ -7118,7 +6732,7 @@
      inkscape:transform-center-y="-0.1718156"
      inkscape:label="one_track"
      style="display:inline"
-     id="g178">
+     id="g173">
         <use
    class="empty-shape"
    href="#track"
@@ -7152,7 +6766,7 @@
      inkscape:transform-center-y="-2.9963853"
      inkscape:label="one_track"
      style="display:inline"
-     id="g152">
+     id="g141">
         <use
    class="empty-shape"
    href="#track"
